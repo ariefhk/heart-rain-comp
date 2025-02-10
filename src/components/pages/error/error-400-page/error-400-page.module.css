@@ -1,0 +1,36 @@
+.container {
+  height: 100svh;
+  font-family: "Inter", serif;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 7rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.message {
+  font-weight: 500;
+}
+
+.description {
+  text-align: center;
+  color: var(--muted-foreground);
+}
+
+.buttonGroup {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
